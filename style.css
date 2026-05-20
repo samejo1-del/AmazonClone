@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    color: white;
+    background-color: #0F1111; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: antiquewhite; */
+}
+.navlogo{
+    height: 55px;
+    width: 100px;
+}
+.logo{
+     background-image: url('https://koto.studio/wp-content/uploads/2025/04/Amazon_CS_01_Intro_00_Thumbnail.jpg'); 
+     background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.first{
+    margin-left: 30px;
+    color: #cccccc;
+    font-size: o.8rem;
+}
+.two{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.nav-search{
+    display: flex;background-color: pink;width: 600px;
+    height: 25px;
+    border-radius: 3%;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 45px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    background-color: rgba(173, 173, 17, 0.349);
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.language select{
+    background-color: #0F1111;
+    width: 40px;
+    color: white;
+}
+.language option{
+    color: black;
+    font-weight: 700;
+}
+.sign-in{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.ok{
+    font-size: 0.85rem;color: white;
+}
+.not{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+.panel{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.8);
+    height: 50px;
+    color: white;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    margin-left:30px;
+}
+.anker {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    color: white; 
+    margin-left: 50px;
+}
+a{
+    color: white;
+}
+.chart-pic{
+    height: 400px;
+    width: 100%;
+    background-image: url('https://m.media-amazon.com/images/I/619geyiQI5L._SX3000_.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+.msg{
+    display: flex;
+    height: 50px;
+    width: 80%;
+    color: black;
+    margin-left: 100px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.msg a{
+    color: grey;
+}
+.shape {
+    height: 500px;
+    width: 100%;
+    background-color:rgba(128, 0, 128, 0.644);
+    display: flex;
+    justify-content: space-evenly;
+}
+.shape-large{
+    margin-top: 10px;
+    border: 2px solid white;
+    height: 350px;
+    width: 45%;
+    background-color: white;
+     /* justify-content: space-evenly; */
+}
+.shape-large h2{
+
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.geo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.selfie{
+ display: inline-block; 
+    background-color: orange;
+    height: 250px;
+    width: 45%;
+    border: 2px solid white;
+   
+    
+}
+.pic1{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_2x_EN._SY608_CB564799420_.jpg');
+    background-size: cover;
+}
+.pic2{
+    background-image: url('https://m.media-amazon.com/images/I/51LU5w+h2gL._AC_UL480_FMwebp_QL65_.jpg');
+    background-size: cover;
+}
+.figure1{
+background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_2x._SY232_CB563137408_.jpg');
+background-size: cover;
+}
+.figure2{
+background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_2x._SY232_CB563137408_.jpg');
+background-size: cover;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color:#37475A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 500px;
+    background-color: #232f3e;
+}
+.top span{
+    color: white;
+    font: 1rem;
+}
+.get{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+    margin-top: 30px;
+
+     
+}
+.know{
+    height: 200px;
+   font-weight: 1000px;
+       font-size: 18px;
+       text-shadow: white;
+      
+}
+li{
+    font-size: 14px;
+  padding: 5px;
+ 
+}
+.product{
+   font-weight: 1000px;
+       font-size: 18px;
+}
+.money{
+   font-weight: 1000px;
+       font-size: 18px;
+}
+.help{
+   font-weight: 1000px;
+       font-size: 18px;
+}
+.final{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+.amz{
+    height: 30px;
+    width: 70px;
+    background-image: url('https://koto.studio/wp-content/uploads/2025/04/Amazon_CS_01_Intro_00_Thumbnail.jpg');
+    background-size: cover;
+    margin-right: 100px;
+}
+
